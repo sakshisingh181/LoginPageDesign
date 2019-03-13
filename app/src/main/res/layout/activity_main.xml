@@ -3,13 +3,13 @@
     android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#cbefc4"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/bookIconImageView"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_centerInParent="true"
         android:contentDescription="@null"
         android:src="@drawable/logo" />
@@ -24,7 +24,7 @@
         android:text="Welcome"
         android:fontFamily="@font/arizonia"
         android:textColor="@color/textcolor"
-        android:textSize="26sp" />
+        android:textSize="40sp" />
 
     <ProgressBar
         android:id="@+id/loadingProgressBar"
@@ -44,7 +44,7 @@
         android:layout_height="match_parent"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="200dp"
         android:orientation="vertical"
         android:visibility="gone">
 
@@ -59,17 +59,17 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <!--<TextView-->
-            <!--android:id="@+id/readItTogetherTextView"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_below="@+id/WelcomeTextView"-->
-            <!--android:layout_marginTop="7dp"-->
-            <!--android:text="Read It Together"-->
-            <!--android:fontFamily="@font/arizonia"-->
-            <!--android:gravity="center"-->
-            <!--android:textColor="@color/textcolor"-->
-            <!--android:textSize="18sp" />-->
+        <TextView
+            android:id="@+id/readItTogetherTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/WelcomeTextView"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/arizonia"
+            android:text="For The love Of Art"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="15sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -96,7 +96,7 @@
                 android:layout_marginTop="25dp"
                 android:hint="Password"
                 android:fontFamily="@font/arizonia"
-                android:textColor="@color/textcolor"
+                android:textColor="@color/colorPrimary"
                 android:textColorHint="@color/textcolor"
                 android:textSize="17sp" />
 
